@@ -431,7 +431,7 @@ a {
 }
 
 .media__image {
-  margin-top: 1rems;
+  margin-top: 1rem;
 }
 
 /* Quoute */
@@ -596,7 +596,7 @@ a {
 }
 
 .collapsible--expanded .collapsible__chevron {
-  transform: rotate();
+  transform: rotate(0);
 }
 
 .collapsible--expanded .collapsible__content {
@@ -756,7 +756,7 @@ a {
 
 @media screen and (min-width: 768px) {
   .block-domain__prices {
-    grid-template-columns: repeat(autof-fit, minmax(10rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
   }
 }
 

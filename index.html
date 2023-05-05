@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="'description" content="Deploy your websites in just 60 seeonds" />
+    <meta name="description" content="Deploy your websites in just 60 seeonds" />
     <meta property="og:title" content="Moshify..." />
     <meta property="og:description" content="Moshify..." />
     <meta property="og:type" content="webiste" />
@@ -20,7 +20,7 @@
       <nav class="nav collapsible">
         <a class="nav__brand" href="#"><img src="/images/logo.png" alt="" /></a>
         <svg class="icon icon--white nav__toggler">
-          <use xlink:href="images/sprite.svg#menu"></use>
+          <use href="images/sprite.svg#menu"></use>
         </svg>
         <ul class="list nav__list collapsible__content">
           <li class="nav__item"><a href="#">Hosting</a></li>
@@ -129,6 +129,10 @@
     </section>
 
     <section class="block container">
+      <header class="block__header" data-aos="fade-up">
+        <h2>Host on the Cloud to Keep Growing</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed, voluptatem.</p>
+      </header>
       <article class="grid grid--1x2 feature">
         <div class="feature__content" data-aos="fade-right">
           <span class="icon-container">
@@ -144,9 +148,9 @@
           <a href="#" class="link-arrow">Learn More</a>
         </div>
         <picture data-aos="zoom-in-left">
-          <source type="image/webp" srcset="images/easy.webp 1x, images/easy@2x.webp" />
-          <source type="image/jpg " srcset="images/easy.jpg 1x, images/easy@2x.jpg" />
-          <img class="feature__image" src="images//easy@2x.jpg" alt="" />
+          <source type="image/webp" srcset="images/easy.webp 1x, images/easy@2x.webp 2x" />
+          <source type="image/jpg" srcset="images/easy.jpg 1x, images/easy@2x.jpg 2x" />
+          <img class="feature__image" src="images/easy@2x.jpg" alt="" />
         </picture>
       </article>
       <article class="grid grid--1x2 feature">
@@ -164,9 +168,9 @@
           <a href="#" class="link-arrow">Learn More</a>
         </div>
         <picture data-aos="zoom-in-left">
-          <source type="image/webp" srcset="images/fast.webp 1x, images/fast@2x.webp" />
-          <source type="image/jpg " srcset="images/fast.jpg 1x, images/fast@2x.jpg" />
-          <img class="feature__image" src="images//fast@2x.jpg" alt="" />
+          <source type="image/webp" srcset="images/fast.webp 1x, images/fast@2x.webp 2x" />
+          <source type="image/jpg" srcset="images/fast.jpg 1x, images/fast@2x.jpg 2x" />
+          <img class="feature__image" src="images/fast@2x.jpg" alt="" />
         </picture>
       </article>
       <article class="grid grid--1x2 feature">
@@ -184,9 +188,12 @@
           <a href="#" class="link-arrow">Learn More</a>
         </div>
         <picture data-aos="zoom-in-left">
-          <source type="image/webp" srcset="images/wordpress.webp 1x, images/wordpress@2x.webp" />
-          <source type="image/jpg " srcset="images/wordpress.jpg 1x, images/wordpress@2x.jpg" />
-          <img class="feature__image" src="images//wordpress@2x.jpg" alt="" />
+          <source
+            type="image/webp"
+            srcset="images/wordpress.webp 1x, images/wordpress@2x.webp 2x"
+          />
+          <source type="image/jpg" srcset="images/wordpress.jpg 1x, images/wordpress@2x.jpg 2x" />
+          <img class="feature__image" src="images/wordpress@2x.jpg" alt="" />
         </picture>
       </article>
       <article class="grid grid--1x2 feature">
@@ -204,9 +211,9 @@
           <a href="#" class="link-arrow">Learn More</a>
         </div>
         <picture data-aos="zoom-in-left">
-          <source type="image/webp" srcset="images/support.webp 1x, images/support@2x.webp" />
-          <source type="image/jpg " srcset="images/support.jpg 1x, images/support@2x.jpg" />
-          <img class="feature__image" src="images//support@2x.jpg" alt="" />
+          <source type="image/webp" srcset="images/support.webp 1x, images/support@2x.webp 2x" />
+          <source type="image/jpg" srcset="images/support.jpg 1x, images/support@2x.jpg 2x" />
+          <img class="feature__image" src="images/support@2x.jpg" alt="" />
         </picture>
       </article>
     </section>
@@ -328,12 +335,12 @@
     <footer class="block block--dark footer">
       <div class="container grid footer__sections">
         <section class="collapsible collapsible--expanded footer__section">
-          <header class="collapsible__header">
+          <div class="collapsible__header">
             <h2 class="collapsible__heading footer__heading">Products</h2>
             <svg class="icon icon--white collapsible__chevron">
               <use xlink:href="images/sprite.svg#chevron"></use>
             </svg>
-          </header>
+          </div>
           <div class="collapsible__content">
             <ul class="list">
               <li><a href="#">Website Hosting</a></li>
@@ -343,12 +350,12 @@
           </div>
         </section>
         <section class="collapsible footer__section">
-          <header class="collapsible__header">
+          <div class="collapsible__header">
             <h2 class="collapsible__heading footer__heading">Company</h2>
             <svg class="icon icon--white collapsible__chevron">
               <use xlink:href="images/sprite.svg#chevron"></use>
             </svg>
-          </header>
+          </div>
           <div class="collapsible__content">
             <ul class="list">
               <li><a href="#">About</a></li>
@@ -358,12 +365,12 @@
           </div>
         </section>
         <section class="collapsible footer__section">
-          <header class="collapsible__header">
+          <div class="collapsible__header">
             <h2 class="collapsible__heading footer__heading">Support</h2>
             <svg class="icon icon--white collapsible__chevron">
               <use xlink:href="images/sprite.svg#chevron"></use>
             </svg>
-          </header>
+          </div>
           <div class="collapsible__content">
             <ul class="list">
               <li><a href="#">Contact</a></li>
@@ -373,12 +380,12 @@
           </div>
         </section>
         <section class="collapsible footer__section">
-          <header class="collapsible__header">
+          <div class="collapsible__header">
             <h2 class="collapsible__heading footer__heading">Domains</h2>
             <svg class="icon icon--white collapsible__chevron">
               <use xlink:href="images/sprite.svg#chevron"></use>
             </svg>
-          </header>
+          </div>
           <div class="collapsible__content">
             <ul class="list">
               <li><a href="#">Domain Checker</a></li>
@@ -387,10 +394,10 @@
             </ul>
           </div>
         </section>
-        <section class="footer__brand">
+        <div class="footer__brand">
           <img src="images/logo.svg" alt="" />
           <p class="footer__copyright">Copyright 2020 Mosh Hamedani</p>
-        </section>
+        </div>
       </div>
     </footer>
 
